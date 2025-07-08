@@ -23,6 +23,7 @@ Python Solutions for Leetcode.
 | 题目原址 | 难易程度 | 题解 | 解题思路 |
 | :----: | :----: | :----: | :----- |
 | [14.最长公共前缀](https://leetcode.cn/problems/longest-common-prefix/) | 简单 | [✅](00_数组与字符串/longest-common-prefix.py) | 把第一个字符串作为初始prefix, 依次和后面的每个字符串去比对，前缀不同就缩短prefix，直到都能匹配为止。如果某次比对后prefix变成空字符串，直接返回"" |
-| [5.最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/) | 中等 | [✅](00_数组与字符串/longest-common-prefix.py) |  |
-
+| [5.最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/) | 中等 | [❓](00_数组与字符串/longest-common-prefix.py) |  |
+| [151.反转字符串中的单词](https://leetcode.cn/problems/reverse-words-in-a-string/) | 中等 | [✅](00_数组与字符串/reverse-words-in-a-string.py) | python字符串是不可变类型，所以无法实现进阶原地解法，这题算简单题。先去除空格得到单词列表，反转之后拼接空格即可 |
+<!-- | [28.找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 简单 | [✅](00_数组与字符串/find-the-index-of-the-first-occurrence-in-a-string.py) |  | -->
 
