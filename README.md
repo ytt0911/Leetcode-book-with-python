@@ -25,5 +25,10 @@ Python Solutions for Leetcode.
 | [14.最长公共前缀](https://leetcode.cn/problems/longest-common-prefix/) | 简单 | [✅](00_数组与字符串/longest-common-prefix.py) | 把第一个字符串作为初始prefix, 依次和后面的每个字符串去比对，前缀不同就缩短prefix，直到都能匹配为止。如果某次比对后prefix变成空字符串，直接返回"" |
 | [5.最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/) | 中等 | [❓](00_数组与字符串/longest-common-prefix.py) |  |
 | [151.反转字符串中的单词](https://leetcode.cn/problems/reverse-words-in-a-string/) | 中等 | [✅](00_数组与字符串/reverse-words-in-a-string.py) | python字符串是不可变类型，所以无法实现进阶原地解法，这题算简单题。先去除空格得到单词列表，反转之后拼接空格即可 |
-<!-- | [28.找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 简单 | [✅](00_数组与字符串/find-the-index-of-the-first-occurrence-in-a-string.py) |  | -->
+| [28.找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 简单 | [✅](00_数组与字符串/find-the-index-of-the-first-occurrence-in-a-string.py) | 看完链接里[关于KMP算法的概念](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/732461/dai-ma-sui-xiang-lu-kmpsuan-fa-xiang-jie-mfbs)之后，看本题题解，注释清晰 |
+
+### 双指针技巧
+| 题目原址 | 难易程度 | 题解 | 解题思路 |
+| :----: | :----: | :----: | :----- |
+| [344.反转字符串](https://leetcode.cn/problems/reverse-string/description/) | 简单 | [✅](00_数组与字符串/reverse-string.py) | 左右指针往中间逼近，左右交换字符即可 |
 
